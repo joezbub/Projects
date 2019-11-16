@@ -65,7 +65,7 @@ int main(void){
     cin >> s;
     int n = SZ(s);
     string line;
-    ifstream myfile("words1.txt"); //dictionary of all English words
+    ifstream myfile("englishdict.txt"); //dictionary of all English words
     string arr[235887];
     int ct = 0;
     if (myfile.is_open()){
