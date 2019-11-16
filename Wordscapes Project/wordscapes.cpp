@@ -1,4 +1,4 @@
-//cheat for the popular app Wordscapes
+//cheat for the popular app Wordscapes, outputs possible words
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -65,7 +65,7 @@ int main(void){
     cin >> s;
     int n = SZ(s);
     string line;
-    ifstream myfile("words1.txt"); //dictionary 
+    ifstream myfile("words1.txt"); //dictionary of all English words
     string arr[235887];
     int ct = 0;
     if (myfile.is_open()){
